@@ -1,3 +1,8 @@
+/** Checks to see if a Sudoku board is valid
+ * https://leetcode.com/problems/valid-sudoku/
+ * @param {character[][]} board
+ * @return {boolean}
+ */
 var isValidSudoku = function(board) {
     for (let i = 0; i < 9; i++) {
         let row = new Set();
